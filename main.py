@@ -1,11 +1,11 @@
 num1= input("please enter your first number:")
 num2= input("please enter your second number:")
 print("which operation do you want to do")
-print ("A.addition")
-print ("B. subtraction")
-print ("C. Multiplication")
-print ("D. Division")
-print ("E. exponents")
+print ("F.addition")
+print ("G. subtraction")
+print ("H. Multiplication")
+print ("I. Division")
+print ("J. exponents")
 choice = input("Enter your choice (A/B/C/D/E:")
 num1= float(num1)
 num2= float(num2)
@@ -33,14 +33,14 @@ def division(div1, div2):
 def exponent(exp1, exp2):
   the_exp= exp1 ** exp2
   print (the_exp)
-if choice == 'A':
+if choice == 'F':
     addition(num1, num2)
-elif choice == 'B':
+elif choice == 'G':
     subtraction(num1, num2)
-elif choice == 'C':
+elif choice == 'H':
     multiplication(num1, num2)
-elif choice == 'D':
+elif choice == 'I':
     division(num1, num2)
-elif choice == 'E':
+elif choice == 'J':
     exponent(num1, num2)
 #this is a calculator teehee
